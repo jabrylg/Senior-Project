@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+import {withAuthenticator} from 'aws-amplify-react'
+import Amplify from 'aws-amplify'
+Amplify.configure(awsconfig)
+
 function App() {
   return (
     <div className="App">
